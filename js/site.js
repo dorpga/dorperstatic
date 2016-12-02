@@ -1,6 +1,6 @@
 $("nav a").on("click", function(e) {
   $("nav a").each(function(a, b) {
-    b.addr("class", "");
+    b.attr("class", "");
   });
   this.attr("class", "active");
 });
